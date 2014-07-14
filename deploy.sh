@@ -41,8 +41,8 @@ cd -
 cp ./phalcon.ini /etc/php.d/
 service php-fpm restart 
 
-#rm -rf ~/phalcon-devtools
-#git clone https://github.com/phalcon/phalcon-devtools.git ~/phalcon-devtools
+rm -rf ~/phalcon-devtools
+git clone https://github.com/phalcon/phalcon-devtools.git ~/phalcon-devtools
 sh ~/phalcon-devtools/phalcon.sh
 rm -rf /usr/bin/phalcon
 ln -s ~/phalcon-devtools/phalcon.php /usr/bin/phalcon
